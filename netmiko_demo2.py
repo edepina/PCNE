@@ -4,7 +4,7 @@ with open(r'G:\My Drive\Training\Koenig\PCNE\devices.txt') as f:
     devices_list = f.read().splitlines()
 
 with open(r'G:\My Drive\Training\Koenig\PCNE\show_commands.txt') as f:
-    show_commands_list = f.read().splitlines() a bug
+    show_commands_list = f.read().splitlines()
 
 #print(devices_list, show_commands_list)
 
