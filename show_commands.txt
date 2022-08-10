@@ -1,0 +1,3 @@
+show run | s hostname
+show clock
+show ver | inc IOS
