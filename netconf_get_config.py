@@ -1,5 +1,4 @@
 # import NetConf Connection Manager
-from operator import ne
 from ncclient import manager
 from xml.dom.minidom import parseString
 
