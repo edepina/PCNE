@@ -24,3 +24,5 @@ netconf_filter = '''
 with connect(**ios_xe) as devices:
     netconf_reply = devices.get_config(source = 'running', filter = netconf_filter)
     print(parseString(netconf_reply.xml).toprettyxml())
+
+    
